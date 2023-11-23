@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINIONS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <link rel="apple-touch-icon" type="image/png" href="https://static.wikia.nocookie.net/despicableme/images/a/ac/BobYay.png/revision/latest?cb=20220129132453" />
+    <meta name="apple-mobile-web-app-title" content="MINIONS">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.wikia.nocookie.net/despicableme/images/a/ac/BobYay.png/revision/latest?cb=20220129132453" />
+    <link rel="mask-icon" type="image/x-icon" href="https://static.wikia.nocookie.net/despicableme/images/a/ac/BobYay.png/revision/latest?cb=20220129132453" color="#111" />
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <link rel="canonical" href="https://codepen.io/creativeocean/pen/abXZKKP">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="home" id="HOME">
+        <div class="circle"></div>
+        <header>
+            <a href="index.html"><img src="img/logo.png.png"></a>
+            <nav class="links">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#BANANAS">BANANAS</a></li>
+                <li><a href="#CHARACTERS">CHARACTERS</a></li>
+                <li><a href="#GALLERY">GALLERY</a></li>
+                <li><a href="#CONTACTS">CONTACTS</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>IT'S</h2><h1>MINIONS</h1>
+                <p>Very sociable and friendly creatures. They love to have fun<br>and are always ready to help their master. They are also very resourceful and can come up with the craziest plans.</p>
+                <a href="https://www.illumination.com/movie/minions/">Learn More</a>
+        </div>
+        <div class="imgBox">
+            <img src="img/Bob.png" class="minion">
+        </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/bob5.png" onclick="imgSlider('img/Bob.png')"></li>
+            <li><img src="img/kevin5.png" onclick="imgSlider('img/Kevin2.png')"></li>
+            <li><img src="img/stuart5.png" onclick="imgSlider('img/Stuart.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/minions"><img src="img/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/minions/"><img src="img/instagram.png"></a></li>
+            <li><a href="https://twitter.com/Minions"><img src="img/x.png"></a></li>
+        </ul>
+    </section>
+
+    
+    <section class="bananas" id="BANANAS">
+        <div class="circle2"></div>
+        <div class="content-2">
+            <div class="videoBox">
+            <video width="900" controls class="video-js" id="video-id">
+            <source src="video/Minions _ All-New Mini-Movie (HD) _ Illumination.mp4" type="video/mp4">
+            </video>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="characters" id="CHARACTERS">
+        <h1>CHARACTERS</h1>
+        <div class='cards-wrapper'>
+          <div class='cards'>
+            <button class='card card1' tabindex="-1">
+              <div class="icon">
+                  <img src="img/gru.png" style="width:28em;">
+              </div>
+              <h2>GRU</h2>    
+            </button>
+        
+            <button class='card card2' tabindex="-1">
+              <div class="icon">
+                <img src="img/SHM_PRINTS_P1880.png" style="width:32em;">
+              </div>
+              <h2>STUART</h2>   
+            </button>
+        
+            <button class='card card3' tabindex="-1">
+              <div class="icon">
+                  <img src="img/Minions_KingBob.png" style="width:30em;">
+              </div>
+              <h2>BOB</h2>   
+            </button>
+        
+            <button class='card card4' tabindex="-1">
+              <div class="icon">
+                  <img src="img/Minions_Kevin2.png" style="width:32em;">
+              </div>
+              <h2>KEVIN</h2>    
+            </button>
+            
+            <button class='card card5' tabindex="-1">
+              <div class="icon">
+                  <img src="img/ScarlettOverkill-1.png" style="width:27em;">
+              </div>
+              <h2>SCARLETT OVERKILL</h2>  
+            </button>
+        
+          </div>
+          <button class="arrow-btn arrow-btn-prev" tabindex="0">
+            <svg viewBox="0 0 256 512">
+              <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+            </svg>
+          </button>
+          <button class="arrow-btn arrow-btn-next" tabindex="0">
+            <svg viewBox="0 0 256 512">
+              <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+            </svg>
+          </button>
+        </div>
+    
+          <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    </section>
+    <script>
+        window.console = window.console || function(t) {};
+      </script>
+      <script id="rendered-js" >
+        const arrowBtns = document.querySelectorAll('.arrow-btn');
+        const cardBtns = document.querySelectorAll('.card');
+        let currentCard = 2;
+        let dir = 1;
+        moveCards();
+        
+        arrowBtns.forEach((btn, i) => {
+          btn.onpointerenter = e => gsap.to(btn, {
+            ease: 'expo',
+            'box-shadow': '0 3px 4px #00000050' });
+        
+        
+          btn.onpointerleave = e => gsap.to(btn, {
+            ease: 'expo',
+            'box-shadow': '0 6px 8px #00000030' });
+        
+        
+          btn.onclick = e => {
+            dir = i == 0 ? 1 : -1;
+            if (i == 0) {
+              currentCard--;
+              currentCard = Math.max(0, currentCard);
+            } else
+            {
+              currentCard++;
+              currentCard = Math.min(4, currentCard);
+            }
+            moveCards(0.75);
+          };
+        });
+        
+        cardBtns.forEach((btn, i) => {
+          btn.onpointerenter = e => gsap.to(btn, {
+            ease: 'power3',
+            overwrite: 'auto',
+            'box-shadow': () => i == currentCard ? '0 6px 11px #00000030' : '0 6px 11px #00000030' });
+        
+        
+          btn.onpointerleave = e => gsap.to(btn, {
+            ease: 'power3',
+            overwrite: 'auto',
+            'box-shadow': () => i == currentCard ? '0 6px 11px #00000030' : '0 0px 0px #00000030' });
+        
+        
+          btn.onclick = e => {
+            dir = i < currentCard ? 1 : -1;
+            currentCard = i;
+            moveCards(0.75);
+          };
+        });
+        
+        function moveCards(dur = 0) {
+          gsap.timeline({ defaults: { duration: dur, ease: 'power3', stagger: { each: -0.03 * dir } } }).
+          to('.card', {
+            x: -270 * currentCard,
+            y: i => i == currentCard ? 0 : 15,
+            height: i => i == currentCard ? 570 : 540,
+            ease: 'elastic.out(0.4)' },
+          0).
+          to('.card', {
+            cursor: i => i == currentCard ? 'default' : 'pointer',
+            'box-shadow': i => i == currentCard ? '0 6px 11px #00000030' : '0 0px 0px #00000030',
+            border: i => i == currentCard ? '2px solid #26a' : '0px solid #fff',
+            background: i => i == currentCard ? 'radial-gradient(100% 100% at top, #fff 0%, #fff 99%)' : 'radial-gradient(100% 100% at top, #fff 20%, #eee 175%)',
+            ease: 'expo' },
+          0).
+          to('.icon svg', {
+            attr: {
+              stroke: i => i == currentCard ? 'transparent' : '#36a',
+              fill: i => i == currentCard ? '#36a' : 'transparent' } },
+        
+          0).
+          to('.arrow-btn-prev', {
+            autoAlpha: currentCard == 0 ? 0 : 1 },
+          0).
+          to('.arrow-btn-next', {
+            autoAlpha: currentCard == 4 ? 0 : 1 },
+          0).
+          to('.card h2', {
+            y: i => i == currentCard ? 0 : 8,
+            opacity: i => i == currentCard ? 1 : 0 },
+          0);
+        }
+            </script>
+
+    <section class="gallery" id="GALLERY">
+      <h1>GALLERY</h1>
+      <div class="slider">
+
+  <div class="slides">
+
+    <div class="slide">
+      <img src="img/gallery1.png" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="img/gallery2.png" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="img/gallery3.png" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="img/gallery4.png" alt="">
+    </div>
+
+    <div class="slide">
+      <img src="img/gallery5.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="controls">
+
+    <div class="dots"></div>
+
+    <button class="prev" tabindex="0">
+      <svg viewBox="0 0 256 512">
+        <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+      </svg>
+    </button>
+    <button class="next" tabindex="0">
+      <svg viewBox="0 0 256 512">
+        <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+      </svg>
+    </button>
+
+  </div>
+  
+</div>
+    </section>
+    <script id="rendered-js" >
+      const slider = document.querySelector(".slider");
+      const slides = document.querySelectorAll(".slide");
+      const container = document.querySelector(".slides");
+      
+      const prevButton = document.querySelector(".prev");
+      const nextButton = document.querySelector(".next");
+      
+      let current = 0;
+      let startX = 0;
+      let endX = 0;
+      
+      let autoSlide = setInterval(slideFoward, 3000);
+      let position = 0;
+      
+      function slideWidth() {
+        let totalWidth = 0;
+      
+        slides.forEach(slide => {
+          slide.style.width = slider.offsetWidth + "px";
+          totalWidth = totalWidth + slider.offsetWidth;
+        });
+      
+        container.style.width = totalWidth + 'px';
+      }
+      
+      function animate() {
+        container.style.transform = `translateX(-${slider.offsetWidth * current}px)`;
+        position = slider.offsetWidth * current;
+        requestAnimationFrame(animate);
+      }
+      
+      function slideFoward() {
+        if (current < slides.length - 1) {
+          current++;
+          requestAnimationFrame(animate);
+        }
+      }
+      
+      function slideBack() {
+        if (current > 0) {
+          current = current - 1;
+          requestAnimationFrame(animate);
+        }
+      }
+      
+      // LOAD EVENT
+      window.addEventListener("load", slideWidth);
+      
+      // RESIZE EVENT
+      window.addEventListener("resize", slideWidth);
+      
+      // BUTTON EVENTS
+      nextButton.addEventListener("click", event => {
+        clearInterval(autoSlide);
+        slideFoward();
+      });
+      
+      prevButton.addEventListener("click", event => {
+        clearInterval(autoSlide);
+        slideBack();
+      });
+      
+      // TOUCH EVENTS
+      container.addEventListener("pointerdown", event => {
+        event.preventDefault();
+      
+        clearInterval(autoSlide);
+        startX = event.pageX;
+      });
+      
+      
+      container.addEventListener("pointerup", event => {
+        event.preventDefault();
+      
+        endX = event.pageX;
+        if (startX - endX > 40) {
+          slideFoward();
+        }
+        if (startX - endX < -40) {
+          slideBack();
+        }
+      });
+          </script>
+
+<section class="contacts">
+  <h2>Short story</h2>
+  <p>The story of the Minions begins at the dawn of time. Starting as single-celled yellow organisms, Minions evolve through the ages, perpetually serving the most despicable masters of the time. After accidentally killing off many of their masters—from T. rex to Dracula—the Minions find themselves exiled in Antarctica.</p>
+
+  <p>But one Minion has a plan. Kevin intends to venture out into the world and find a new evil boss. Joining him on his quest are Stuart and Bob. The trio embarks on their journey, venturing across the world only to wash up on the shores of 1960s New York City.</p>
+  <br>
+  <div class="footer" id="CONTACTS">
+    <h2>USEFUL LINKS</h2>
+    <p>+77714298127</p>
+    <p>email: qxdnkp@gmail.com</p>
+    <a href="https://despicableme.fandom.com/ru/wiki/%D0%9C%D0%B8%D0%BD%D1%8C%D0%BE%D0%BD%D1%8B_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)">INFORMATION</a>
+</div>
+  
+</section>
+</body>
+</html>
